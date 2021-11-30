@@ -13,9 +13,9 @@ router.get('/novedades', async function(req, res, next) {
     novedades = novedades.map(novedades => {
       if (novedades.img_id) {
         const imagen = cloudinary.url(novedades.img_id, {
-          width: 960,
+          width: 760,
           height: 200,
-          crop: 'fill' /* pad */
+          crop: 'fill' /*fill - pad */
         });
         return {
           ...novedades,

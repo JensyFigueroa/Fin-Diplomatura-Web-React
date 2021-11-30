@@ -7,11 +7,11 @@ const NovedadItem = (props) => {
 
     return (
         <main>
-            <div class="holder">
+            <div class="holder novedades">
                 <div className="novedades">
-                    <h1>{title}</h1>
-                    <h2>{subtitle}</h2>
-                    <img src= {imagen} />
+                    <h4>{title}</h4>
+                    <h5>{subtitle}</h5>
+                    <img src= {imagen}/>
                     <div dangerouslySetInnerHTML={{ __html: body}}/>
                     <hr/>
                 </div>

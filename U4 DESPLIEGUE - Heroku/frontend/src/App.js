@@ -18,7 +18,6 @@ import GaleriaPage from "./page/GaleriaPage";
 import NovedadesPage from "./page/NovedadesPage";
 import ContactoPage from "./page/ContactoPage";
 
-
 function App() {
   return (
        <Router>

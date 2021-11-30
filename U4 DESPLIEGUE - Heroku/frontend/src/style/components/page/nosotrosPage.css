@@ -14,7 +14,7 @@ main .holder h2{
 }
 
 main .holder p{
-    font-size: 0.9em;
+    font-size: 1.1em;
     margin-bottom: 20px;
 }
 
@@ -44,7 +44,7 @@ main .holder p{
     width: 20%;
     border: 2px solid gray;
     border-radius: 0.25em;
-    /* float: left; */
+
     margin-left: 2,25%;
     box-sizing: border-box;
 

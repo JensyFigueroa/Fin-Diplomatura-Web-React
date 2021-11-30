@@ -9,7 +9,7 @@ var fileUpload = require('express-fileupload');
 var cors = require('cors');
 
 require('dotenv').config();
-/*  */
+
 var session = require('express-session');
 
 var indexRouter = require('./routes/index');

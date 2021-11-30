@@ -13,17 +13,39 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="/stylesheets/estilos.css">
+    <link rel="stylesheet" href="/stylesheets/MediaQuerys.css">
     {{!-- <link rel="stylesheet" href="/stylesheet/admin.css"> --}}
 </head>
 <body>
 
     {{!-- ------------------- CABECERA --------------------- --}}
-    <header>
+   
+         <header class="contenedor">
+            <div class="fila">
+                <div class="login col-lg-12 col-md-12 col-ms-12 col-xs-12">  
+                    <a class="btn btn-danger" href="http://localhost:3001"><i class="fas fa-sign-in-alt"></i>   Ir Inicio</a>
+                </div>
+            </div>
+                <div class="fila fila-flex">
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <img class="logoAnima" src="/images/logo.png" alt=""/>
+                    </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <h1 class="animacion" id="animacion">Recetas Faciles</h1>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <img class="logoAnima" src="/images/logo.png" alt="" />
+                </div>
+            </div>
+    </header>
+
+    {{!-- <header>
         <div class="holder">
             <img src="/images/logo.png" alt="">
             <h1>Recetas Faciles</h1>
+            <img src="/images/logo.png" alt="">
         </div>
-    </header>
+    </header> --}}
     
   {{!-- ------------------- PRINCIPAL --------------------- --}}
     <main>

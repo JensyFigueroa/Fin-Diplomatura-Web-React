@@ -1,10 +1,54 @@
-/* Se coloca en lo general que es APP.CSS */
+ /* ==================================================
+            Se coloca en lo general que es APP.CSS  
+=====================================================*/
+ /* ==================================================
+           GLOBALES
+=====================================================*/
 *{
   margin: 0;
   padding: 0;
   list-style: none;
+  text-decoration: none;
+  /* font-family: sans-serif; */
+  box-sizing: border-box;
 }
+
+.contenedor{
+  position: relative;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  /* background-color: chartreuse;  */
+}
+
+.fila{
+  position: relative;
+  margin: auto;
+  width: 100%;
+  height: auto;
+}
+
+.fila-flex{
+  display: flex;
+  flex-direction: row;
+  align-items:center ;
+}
+
+[class*="col-"]{
+  /* background-color: rgb(220, 20, 60,.5);
+  border: 1px solid black; */
+  /* color: burlywood; */
+ /*  text-align: center; */
+/*   height: 120px; */
+  /* line-height: 120px; */
+}
+
 
 body{
   font-family: 'Merienda', cursive ,'Tangerine', cursive;
+}
+
+.holder{
+  width: 80%;
+  margin: auto;
 }

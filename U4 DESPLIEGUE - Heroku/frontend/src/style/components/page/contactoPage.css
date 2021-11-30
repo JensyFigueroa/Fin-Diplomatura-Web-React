@@ -1,52 +1,27 @@
-.columnas{
-    display: flex;
-    justify-content: center;
+ /* ==================================================
+    ************ COLUMNA LEFT ************
+=====================================================*/
+.left{
+  /*   background-color: aqua;
+    border: 1px solid black; */
+    height: 400px;
 }
 
-.columnas .left{
-    width: 50%;
-    border-right: 1px solid cornsilk;
-}
-.columnas .right{
-    margin-left: 20px;
+.left h2{
+    text-align: center;
 }
 
-
-.columnas.left{
-    border-right: 2px solid cornsilk;
-    margin-left: px;
+.left .formulario{
+    margin-top: 20px;
+    margin-left: 30px;
 }
-
-.columnas.left h2{
-    margin-bottom: 10px;
-}
-
-.columnas.right {
-    vertical-align: top;
-    /* margin-left: 20px; */
-}
-
-.columnas.right p{
-    font-size: 0.9em;
-}
-
-.columnas .right ul li a i{
-    text-decoration: none;
-    color: cornsilk;
-} 
-
-.columnas .right ul li a {
-    font-size: 0.9em;
-    text-decoration: none;
-    margin-left: 10px;
-    color: cornsilk;
-    font-family: 'Merienda', cursive ,'Tangerine', cursive;
-} 
 
 .formulario label{
     vertical-align: top;
     width: 20%;
     display: inline-block;
+    margin-left: 40px;
+    margin-right: 30px;
 }
 
 .formulario input, textarea{
@@ -55,7 +30,7 @@
     border: 1px solid #999 ;
     padding: 0.4em 0.6em;
     font-size: 0.8em;
-    width: 70%;
+    width: 50%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -65,14 +40,35 @@
     color: white;
     font-size: 1em;
     width: 100px;
-    cursor: pointer;   
+    cursor: pointer;  
+    margin-left:175px ; 
+   
 }
 
-.formulario textarea{
-    height: 10em;
-    resize: none;
+ /* ==================================================
+    ************ COLUMNA RIGTH ************
+=====================================================*/
+.right{
+   /*  background-color: aqua;
+    border: 1px solid black; */
+    height: 400px;
+    display: inline-block;
 }
 
-.formulario .acciones{
+.right h2{
     text-align: center;
 }
+
+.right p, .rSociales{
+    margin-left: 55px;
+}
+
+.right ul li a {
+    font-size: 1.1em;
+    text-decoration: none;
+    margin-left: 10px;
+    color: cornsilk;
+    font-family: 'Merienda', cursive ,'Tangerine', cursive;
+} 
+
+

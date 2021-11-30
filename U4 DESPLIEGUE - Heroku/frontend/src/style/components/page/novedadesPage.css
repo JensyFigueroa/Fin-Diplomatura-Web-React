@@ -1,5 +1,6 @@
 .novedades h1{
     text-align: center;
+    font-weight: bold;
 }
 
 .novedad{
@@ -7,10 +8,29 @@
     margin: auto;
 }
 
+.novedad h3, h4{
+    font-weight: bold;
+    text-align: center;
+}
+
+.novedad h5{
+    text-align: center;
+}
+
 .novedad h3, h4, p{
     margin-bottom: 10px;
 }
 
-.novedad hr{
-    margin-bottom: 40px;
+hr{
+    margin-bottom: 20px;
+    border: 2px solid cornsilk;;
 }
+
+main .novedades img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+

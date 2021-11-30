@@ -13,8 +13,8 @@ var novedades =  await novedadesModel.getNovedades();
 novedades = novedades.map(novedad => {
   if (novedad.img_id) {
     const imagen = cloudinary.image(novedad.img_id,{
-      width: 100,
-      height: 100,
+      width: 300,
+      height: 150,
       crop: 'fill' /* pad */
     });
     return {
